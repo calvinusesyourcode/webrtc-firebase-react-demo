@@ -4,7 +4,7 @@
 * react w/ next.js 13
 * firebase
 
-Important: It only works on my home wifi network. Cross-network compatibility requires TURN servers I believe.
+Important: It only works on my home wifi network. Cross-network compatibility requires TURN servers. Use metered's free turn server tier: https://www.metered.ca/pricing
 
 ### How to use
 ```
