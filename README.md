@@ -1,17 +1,26 @@
-# react+firebase demo of webRTC w/ STUN server
+## webRTC videochat demo
 
-**Works on my home wifi network!** xD
+* webRTC
+* react w/ next.js 13
+* firebase
+
+Important: It only works on my home wifi network. Cross-network compatibility requires TURN servers I believe.
 
 ### How to use
 
-Update lib/firebase.ts with your firebase config and then
-
+```
+// update lib/firebase.ts with your firebase config
+```
 ```
 npm install
-
+```
+```
 firebase init firestore
+```
+```
 firebase deploy --only firestore:rules
-
+```
+```
 npm run dev
 ```
 
