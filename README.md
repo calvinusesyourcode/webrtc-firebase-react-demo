@@ -7,7 +7,9 @@
 Important: It only works on my home wifi network. Cross-network compatibility requires TURN servers I believe.
 
 ### How to use
-
+```
+git clone https://github.com/calvinusesyourcode/webrtc-firebase-react-demo
+```
 ```
 // update lib/firebase.ts with your firebase config
 ```
@@ -21,7 +23,7 @@ firebase init firestore
 firebase deploy --only firestore:rules
 ```
 ```
-npm run dev
+// project uses next.js so host with vercel.com or just npm run dev
 ```
 
 ### Resources
